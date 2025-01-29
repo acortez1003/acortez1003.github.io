@@ -12,7 +12,7 @@ title                    : "Ash Cortez Portfolio"
 title_separator          : "-"
 name                     : &name "Ash Cortez"
 description              : &description "Portfolio Website"
-url                      : https://acortez.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://acortez.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "acortez1003.github.io"
 
