@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "dark"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ash Cortez"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Ash Cortez"
   pronouns         : "he/him"  
-  bio              : "Aspiring Software Engineer, currently a Computer Science student at FSU"
+  bio              : "Aspiring Software Engineer | Computer Science student at FSU"
   location         : "Tallahassee, FL"
   employer         : "Florida State University"
   uri              : # URL
