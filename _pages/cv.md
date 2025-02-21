@@ -9,15 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-# Education
+## Education
 
-======
+---
 
 * B.S. in Computer Science, Florida State University (Dec. 2025)
 
-# Technical Skills
+## Technical Skills
 
-======
+---
 
 * Languages
   * C++, C#, Java, Python, HTML, CSS, PHP
@@ -26,11 +26,11 @@ redirect_from:
 * Operating Systems
   * Android Mobile Development, UNIX/Linux (Ubuntu), Windows, macOS
   
-# Involvement
+## Involvement
 
-======
+---
 
-* Learning Assistant (August 2023 - Present)
+* <ins>Learning Assistant</ins> (August 2023 - Present)
   * Assist 200+ students in the Pre-Calculus course at FSU by providing tutoring sessions and help during large lectures
   * Lead lab sections of 20+ students, providing example questions and encouraging student participation
 * Marching Chief (August 2022 - Present)
@@ -38,13 +38,13 @@ redirect_from:
 * Summer Camp Counselor (June 2023 - July 2023)
   * Supervised and guided upwards of 40 campers in camp activities while promoting teamwork and safety
 
-# Relevant Coursework
+## Relevant Coursework
 
-======
+---
 
 **Secure, Parallel, and Distributed programming in Python**
 
-===
+---
 
   * Configured and secured remote servers using SSH using key-based authentication
   * Developed network applications with Python sockets, enabling client-server communication over TCP
@@ -55,7 +55,7 @@ redirect_from:
 
 **C#**
 
-===
+---
 
   * Implementing MVVM (Model-View-ViewModel) Architecture
   * Designing UI with XAML using .NET MAUI
@@ -64,7 +64,7 @@ redirect_from:
 
 **Databases**
 
-===
+---
 
   * SQL and Query Writing (data retrievel, insertion, updating, and deletion)
   * Creating local server environments using XAMPP and used MariaDB to support the database system
@@ -72,7 +72,7 @@ redirect_from:
 
 **Data Structures & Algorithms**
 
-===
+---
 
   * Implemented generic templates for core data structures (Doubly Linked Lists, Hash Tables, and Stacks)
   * Developed a Binary Search Tree (BST) and applied recursive algorithms for operations like postfix-to-infix conversion and tree traversal
@@ -81,7 +81,7 @@ redirect_from:
 
 **Mobile Programming**
 
-===
+---
 
   * Developed Android applications using Android Studio Jellyfish and Java
   * Implemented MVVM Architecture
@@ -91,7 +91,7 @@ redirect_from:
 
 **Computer & Network System Administration**
 
-===
+---
 
   * Created and managed VMs on Google Cloud Platform (GCP) and Amazon Web Services (AWS)
   * Explored cloud infrastructure concepts
@@ -99,7 +99,7 @@ redirect_from:
 
 **Introduction to Artificial Intelligence**
 
-===
+---
 
   * Search algorithms (A*, DFS, BFS)
   * Game AI (Minimax, Alpha-Beta Pruning)
