@@ -10,11 +10,15 @@ redirect_from:
 {% include base_path %}
 
 # Education
+
 ======
+
 * B.S. in Computer Science, Florida State University (Dec. 2025)
 
 # Technical Skills
+
 ======
+
 * Languages
   * C++, C#, Java, Python, HTML, CSS, PHP
 * Software and tools
@@ -23,7 +27,9 @@ redirect_from:
   * Android Mobile Development, UNIX/Linux (Ubuntu), Windows, macOS
   
 # Involvement
+
 ======
+
 * Learning Assistant (August 2023 - Present)
   * Assist 200+ students in the Pre-Calculus course at FSU by providing tutoring sessions and help during large lectures
   * Lead lab sections of 20+ students, providing example questions and encouraging student participation
@@ -33,38 +39,50 @@ redirect_from:
   * Supervised and guided upwards of 40 campers in camp activities while promoting teamwork and safety
 
 # Relevant Coursework
+
 ======
+
 **Secure, Parallel, and Distributed programming in Python**
+
 ===
-  * Configured and secured remote servers using SSH, implementing key-based authentication and best security practices
+
+  * Configured and secured remote servers using SSH using key-based authentication
   * Developed network applications with Python sockets, enabling client-server communication over TCP
   * Implemented multithreading and multiprocessing to handle parallel execution to optimize performance
-  * Deployed and managed virtual machines on Linode, running an Ubuntu image, and performed security audits using Lynis
+  * Deployed and managed virtual machines on Linode and performed security audits using Lynis
   * Hardened Linux systems by configuring firewall rules, user permissions, etc.
   * Building a scaable web application, integrating NGINX, Gunicorn (as WSGI server), and Flask
 
 **C#**
+
 ===
+
   * Implementing MVVM (Model-View-ViewModel) Architecture
   * Designing UI with XAML using .NET MAUI
   * Backend Development with .NET (CRUD Operations)
   * Using these ideas to create mockup eCommerce project
 
 **Databases**
+
 ===
+
   * SQL and Query Writing (data retrievel, insertion, updating, and deletion)
   * Creating local server environments using XAMPP and used MariaDB to support the database system
   * Using these ideas to create a mockup Real Estate Listing Service web application
 
 **Data Structures & Algorithms**
+
 ===
+
   * Implemented generic templates for core data structures (Doubly Linked Lists, Hash Tables, and Stacks)
   * Developed a Binary Search Tree (BST) and applied recursive algorithms for operations like postfix-to-infix conversion and tree traversal
   * Optimized data processing tasks by combining quicksort with Hash Tables to efficiently collect and analyze word, number, and character usage statistics
   * Applied dynamic memory management in C++ to implement efficient pointer-based data structures and avoid memory leaks
 
 **Mobile Programming**
+
 ===
+
   * Developed Android applications using Android Studio Jellyfish and Java
   * Implemented MVVM Architecture
   * Integrated SQL Databases (Room Persistence Library) to store and retrieve data for Pet Survey application
@@ -72,12 +90,16 @@ redirect_from:
   * Created Memory Game and Pet Care projects
 
 **Computer & Network System Administration**
+
 ===
+
   * Created and managed VMs on Google Cloud Platform (GCP) and Amazon Web Services (AWS)
   * Explored cloud infrastructure concepts
   * Implemented basic server adminstration tasks, such as setting up users, permissions, and configurations on VMs
 
 **Introduction to Artificial Intelligence**
+
 ===
+
   * Search algorithms (A*, DFS, BFS)
   * Game AI (Minimax, Alpha-Beta Pruning)
