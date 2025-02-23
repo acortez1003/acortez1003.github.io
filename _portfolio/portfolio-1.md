@@ -23,3 +23,7 @@ I developed a resuable Interact Area node that can be applied to any item using 
 I also implemented dialogue management by integrating the [DialogueManager](https://github.com/nathanhoad/godot_dialogue_manager) plugin created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
 
 ![Dialogue manager](/images/dialogue_manager.PNG)
+
+Additionally, I setup the transition logic by creating door nodes that allowed players to transition between scenes. Using exported variables, I set up each door to point to specific target scenes. In the image below, our "Door_3" points to "Door_4" and transitions to "Area_3" and will point the player left upon spawn.
+
+![Door](/images/door.PNG)
