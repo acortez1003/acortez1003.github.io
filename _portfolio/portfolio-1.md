@@ -8,15 +8,11 @@ Over the course of a semester, my team and I developed a 2D Metroidvania in Godo
 
 ## Level Design
 
----
-
 I designed and implemented the templates for all three in-game maps, utilizing Godot's TileMap to construct tile-based environments. I used parallax backgrounds to create dynamic effects and configured collision layers to ensure accurate player interaction.
 
 ![Level design](/images/level_design.png)
 
 ## Interactive Environments
-
----
 
 I developed a resuable Interact Area node that can be applied to any item using the `interact()` function, which allows child nodes to override and define specific behavior. The system uses collision detection to trigger an indicator (`[E]`) when the player enters the designated Interact Area. Upon pressing the interact button, the `interact()` function is called, executing the specific action for that object.
 
@@ -24,6 +20,6 @@ I developed a resuable Interact Area node that can be applied to any item using 
 
 ## Dialogue Management and Story Progression
 
-I also implemented dialogue management by integrating the [DialogueManager plugin](https://github.com/nathanhoad/godot_dialogue_manager) created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
+I also implemented dialogue management by integrating the [DialogueManager](https://github.com/nathanhoad/godot_dialogue_manager) plugin created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
 
 ![Dialogue manager](/images/dialogue_manager.PNG)
