@@ -44,12 +44,12 @@ redirect_from:
 
 <ins>**Secure, Parallel, and Distributed programming in Python**</ins>
 
-  * Configured and secured remote servers using SSH using key-based authentication
-  * Developed network applications with Python sockets, enabling client-server communication over TCP
-  * Implemented multithreading and multiprocessing to handle parallel execution to optimize performance
-  * Deployed and managed virtual machines on Linode and performed security audits using Lynis
-  * Hardened Linux systems by configuring firewall rules, user permissions, etc.
-  * Building a scalable web application, integrating NGINX, Gunicorn, and Flask
+  * Secured remote servers with SSH key-based authentication
+  * Developed network applications using Python sockets (TCP communication)
+  * Implemented multithreading & multiprocessing for parallel execution
+  * Deployed Linode VMs and performed security audits with Lynis
+  * Hardened Linux systems (firewalls, user permissions, etc.)
+  * Built a scalable web application using NGINX, Gunicorn, and Flask
 
 <ins>**C#**</ins>
 
