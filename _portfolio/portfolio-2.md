@@ -1,7 +1,30 @@
 ---
 title: "Real Estate MLS"
-excerpt: "A mockup web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB.<br/><img src='/images/500x300.png'>"
+excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. To visit the GitHub repository, click [here](https://github.com/acortez1003/Real-Estate-MLS).<br/><img src='/images/mls.PNG'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying.
+
+## Search Functionality
+
+The `Search Houses` and `Search Businesses` tabs filter properties based on user critera. The data submitted is passed to PHP scripts which interact with the MySQL database to retrieve the filtered results using `GET`.
+
+![Search Houses](/images/mls.PNG)
+![Search Businesses](/images/search_business.PNG)
+
+## Dynamic Queries
+
+The `Queries` tab allows users to write custom SQL queries. PHP is used to validate correct syntax. If valid, the application will take the user to a separate page with the results of that query.
+
+![Query](/images/query.PNG)
+
+## Fixed Data Views
+
+The `Agents` and `Buyers` tabs display set information on the predefined variables.
+
+![Agent and Buyer](/images/agent_buyer.PNG)
+
+The `Listings` tab provides a detailed view of all active listings
+
+![Listings](/images/listings.PNG)
