@@ -17,4 +17,4 @@ Some of my favorite projects include a mockup of a Real Estate Listing Service, 
 
 I am actively seeking internship opportunities in software engineering, where I can apply my skills and continue growing as a developer.
 
-To hear more about my projects and other involvements, check out my [Portfolio](https://acortez1003.github.io/portfolio/) and [CV](https://acortez1003.github.io/CV/)
+To hear more about my projects and other involvements, check out my [Portfolio](https://acortez1003.github.io/portfolio/) and [CV](https://acortez1003.github.io/cv/)
