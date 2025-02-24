@@ -4,7 +4,7 @@ excerpt: "A full-stack web application designed to simulate a real estate listin
 collection: portfolio
 ---
 
-This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying.
+This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying. GitHub link [here](https://github.com/acortez1003/Real-Estate-MLS).
 
 ## Search Functionality
 
