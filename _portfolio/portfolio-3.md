@@ -12,13 +12,15 @@ The `InventoryView` has all CRUD (Create, Read, Update, Delete) operations for p
 
 ![InventoryView](/images/inventory.PNG)
 
-We can also add a product
+Clicking BOGO will turn it on/off for a specific object.
 
-![Add Product](/images/new_product.PNG)
+![Add Product](/images/add_product.PNG)
 
-... and see it added to our inventory list
+We can also add a product ...
 
-![View new product](/images/add_product.PNG)
+![View new product](/images/new_product.PNG)
+
+... and see it added to our inventory list!
 
 ## Shopping Functionalities
 
@@ -26,4 +28,4 @@ In the shopping area, the user can create a shopping cart, or use the default sh
 
 ![Cart](/images/cart.PNG)
 
-This `ShopView` is also where the tax rates are implemented and seen through the receipt. 
+This `ShopView` is also where the tax rates are implemented and seen through the receipt. Here is also where the markdown value is applied, if a product has one.
