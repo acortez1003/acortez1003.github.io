@@ -5,4 +5,4 @@ permalink: /resume/
 author_profile: true
 ---
 
-[Resume](/files/acortez_resume.pdf)
+<embed src="/files/acortez_resume.pdf" width="800" height="600" />
