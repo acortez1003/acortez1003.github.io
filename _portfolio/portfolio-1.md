@@ -4,7 +4,7 @@ excerpt: "Metroidvania created in Godot, featuring custom level design, interact
 collection: portfolio
 ---
 
-Over the course of a semester, my team and I developed a 2D Metroidvania in Godot using GDScript. My primary contributions focused on **level design, interactive environments, managing dialogue, and story progression.** [*GitHub*](https://github.com/acortez1003/Ascend-Path-of-No-Return)
+Over the course of a semester, my team and I developed a 2D Metroidvania in Godot using GDScript. My primary contributions focused on **level design, interactive environments, managing dialogue, and story progression.** [*link*](https://github.com/acortez1003/Ascend-Path-of-No-Return)
 
 ## Level Design
 
