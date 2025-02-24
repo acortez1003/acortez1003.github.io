@@ -1,10 +1,10 @@
 ---
 title: "eCommerce"
-excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. To visit the GitHub repository, click [here](https://github.com/acortez1003/eCommerce_Su2024).<br/><img src='/images/ecommerce.PNG'>"
+excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. [*repo*](https://github.com/acortez1003/eCommerce_Su2024).<br/><img src='/images/ecommerce.PNG'>"
 collection: portfolio
 ---
 
-During my C# class, I developed a functional eCommerce web application that provides shopping and inventory management functionalities. This web application keeps up with MVVM architecture.
+During my C# class, I developed a functional eCommerce web application that provides shopping and inventory management functionalities. This web application keeps up with MVVM architecture. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)
 
 ## Inventory Management
 

@@ -1,6 +1,6 @@
 ---
 title: "Ascend: Path of No Return"
-excerpt: "Metroidvania created in Godot, featuring custom level design, interactive dialogue, and dynamic story progression. Team project written in GDScript. To visit the GitHub repository, click [here](https://github.com/acortez1003/Ascend-Path-of-No-Return).<br/><img src='/images/ascend.PNG'>"
+excerpt: "Metroidvania created in Godot, featuring custom level design, interactive dialogue, and dynamic story progression. Team project written in GDScript. [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return).<br/><img src='/images/ascend.PNG'>"
 collection: portfolio
 ---
 
