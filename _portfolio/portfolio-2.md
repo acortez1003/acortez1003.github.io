@@ -1,6 +1,6 @@
 ---
 title: "Real Estate MLS"
-excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. [*repo*](https://github.com/acortez1003/Real-Estate-MLS).<br/><img src='/images/mls.PNG'>"
+excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)<br/><img src='/images/mls.PNG'>"
 collection: portfolio
 ---
 

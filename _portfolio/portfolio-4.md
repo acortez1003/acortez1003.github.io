@@ -1,6 +1,6 @@
 ---
 title: "Memory Game"
-excerpt: "An Android memory game developed in Android Studio using Java and XML, featuring user preferences management and dynamic level selection. [*repo*](https://github.com/acortez1003/MemoryGame).<br/><img src='/images/home.PNG' style='display: block; margin: auto;'>"
+excerpt: "An Android memory game developed in Android Studio using Java and XML, featuring user preferences management and dynamic level selection. [*repo*](https://github.com/acortez1003/MemoryGame)<br/><img src='/images/home.PNG' style='display: block; margin: auto;'>"
 collection: portfolio
 ---
 
