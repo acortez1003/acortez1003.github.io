@@ -1,31 +1,30 @@
 ---
-title: "eCommerce"
-excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)<br/><img src='/images/ecommerce.PNG'>"
+title: "Real Estate MLS"
+excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)<br/><img src='/images/mls.PNG'>"
 collection: portfolio
 ---
 
-During my C# class, I developed a functional eCommerce web application that provides shopping and inventory management functionalities. This web application keeps up with MVVM architecture. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)
+This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)
 
-## Inventory Management
+## Search Functionality
 
-The `InventoryView` has all CRUD (Create, Read, Update, Delete) operations for products. We can change product details such as the name, the price and the amount.
+The `Search Houses` and `Search Businesses` tabs filter properties based on user critera. The data submitted is passed to PHP scripts which interact with the MySQL database to retrieve the filtered results using `GET`.
 
-![InventoryView](/images/inventory.PNG)
+![Search Houses](/images/mls.PNG)
+![Search Businesses](/images/search_business.PNG)
 
-Clicking BOGO will turn it on/off for a specific object.
+## Dynamic Queries
 
-![Add Product](/images/add_product.PNG)
+The `Queries` tab allows users to write custom SQL queries. PHP is used to validate correct syntax. If valid, the application will take the user to a separate page with the results of that query.
 
-We can also add a product ...
+![Query](/images/query.PNG)
 
-![View new product](/images/new_product.PNG)
+## Fixed Data Views
 
-... and see it added to our inventory list!
+The `Agents` and `Buyers` tabs display set information on the predefined variables.
 
-## Shopping Functionalities
+![Agent and Buyer](/images/agent_buyer.PNG)
 
-In the shopping area, the user can create a shopping cart, or use the default shopping cart. The inventory and shopping cart are dynamically linked, ensuring that any updates made to the inventory are reflected in the shopping area. This is achieved through data binding.
+The `Listings` tab provides a detailed view of all active listings
 
-![Cart](/images/cart.PNG)
-
-This `ShopView` is also where the tax rates are implemented and seen through the receipt. Here is also where the markdown value is applied, if a product has one.
+![Listings](/images/listings.PNG)
