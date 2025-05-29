@@ -18,11 +18,12 @@ author_profile: true
 ---
 
 * Languages
-  * C++, C#, Java, Python, HTML, CSS, PHP
+  * C++, C#, C, Java (proficient)
+  * Python, HTML/CSS, JavaScript, SQL (familiar)
 * Software and tools
-  * Visual Studio, Android Studio, Git, SQL, Google Cloud Platform, Godot, Lynis, AWS, Virtual Machines
+  * Git, SQLite, Nginx, Flask, Gunicorn, Android Studio, Linode, RESTful APIs, GCP, AWS 
 * Operating Systems
-  * Android Mobile Development, UNIX/Linux (Ubuntu), Windows, macOS
+  * Linux (Ubuntu), Windows, macOS, Android
   
 ## Involvement
 
@@ -42,12 +43,13 @@ author_profile: true
 
 <ins>**Secure, Parallel, and Distributed programming in Python**</ins>
 
+  * Built and deployed a secure, real-time [system monitoring dashboard](https://acortez1003.github.io/portfolio/portfolio-1/) using Flask, Netdata, and SQLite across a 5-user cluster
   * Secured remote servers with SSH key-based authentication
   * Developed network applications using Python sockets (TCP communication)
   * Implemented multithreading & multiprocessing for parallel execution
   * Deployed Linode VMs and performed security audits with Lynis
   * Hardened Linux systems (firewalls, user permissions, etc.)
-  * Built a scalable web application using NGINX, Gunicorn, and Flask
+  * Built a scalable web application using Nginx, Gunicorn, and Flask
 
 <ins>**C#**</ins>
 

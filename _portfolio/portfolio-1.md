@@ -1,20 +1,33 @@
 ---
-title: "Gift Grouping App - In Progress"
-excerpt: "An Android mobile application that allows users to efficiently track and manage gift purchases within groups. This personal project utilizes Java, Android Studio, SQLite, and RESTful APIs. [*repo*](https://github.com/acortez1003/GiftLoop)"
+title: "Cluster-Based System Monitoring Dashboard"
+excerpt: "Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network metrics across a 5-user cluster."
 collection: portfolio
 ---
 
-I'm currently developing an app that allows users to track and manage gift purchases within a group. [*repo*](https://github.com/acortez1003/GiftLoop)
+## Project Overview
+Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network usage across a 5-user cluster. The app logs metrics to a local SQLite database and visualizes real-time trends using Chart.js.
 
-## Current Progress
+## Tech Stack
+Python, Flask, Netdata API (RESTful), SQLite, Chart.js, Gunicorn, Nginx, Linode, GitLab
 
-* **Data Models**: Set up models for `User`, `Group`, and `Gift` to define the structures of the data.
-* **DAO Classes**: Implemented DAO (Data Access Object) classes for each model, including `@Insert`, `@Delete`, and specific queries to retrieve all groups or all gifts for a particular group.
-* **Repository Setup**: Created a repository to interact with the DAOs. This layer is responsible for managing data operations, using the ExecutorService library to handle background threads efficiently.
-* **ViewModels**: Set up ViewModels using the Android ViewModel library to manage UI-related data and allow data binding to the UI.
+## Key Features
+* Real-time Metrics Visualization
+    * Metrics  (CPU, memory, etc.) updated every 10 seconds
+    * Visualized with dynamic line graphs using Chart.js
+    * Provides instant feeback on system load and usage
 
-## Next Steps
+![Live metrics](/images/metrics.png)
 
-* **UI Setup**: Implementing the UI using `NavHostFragment` to navigate between screens. Each screen will be structured as individual fragments with corresponding XML layouts.
-* **Connecting ViewModels**: After setting up the UI, I'll connect each fragment to its respective ViewModel to handle user interactions and data updates.
-* **Amazon RESTful API Integration**: I plan on incorporating Amazon's API to allow users to search for gifts, view recommended items, and access direct purchase links for each item.
+* Database Logging
+    * Metrics from all cluster machines logged every 10 minutes
+    * Stored using SQLite for lightweight persistence
+    * Enables historical data trends and analysis
+
+![Database logs](/images/database.png)
+
+* Security and Deployment
+    * Deployed on Linode with Nginx + Gunicorn
+    * Secured with HTTPS via Certbot
+    * Restricted Netdata API access to cluster members only
+
+This project allowed me to learn how to manage and secure a live production server. I gained hands-on experience with REST APIs, background logging, and system-level monitoring.
