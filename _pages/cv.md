@@ -54,13 +54,13 @@ author_profile: true
   * Implementing MVVM (Model-View-ViewModel) Architecture
   * Designing UI with XAML using .NET MAUI
   * Backend Development with .NET (CRUD Operations)
-  * Using these ideas to create mockup [eCommerce project](https://acortez1003.github.io/portfolio/portfolio-3/)
+  * Using these ideas to create mockup [eCommerce project](https://acortez1003.github.io/portfolio/portfolio-4/)
 
 <ins>**Databases**</ins>
 
   * SQL and Query Writing
   * Creating local server environments using XAMPP and MariaDB to support the database system
-  * Created mockup [Real Estate Listing Service](https://acortez1003.github.io/portfolio/portfolio-2/)
+  * Created mockup [Real Estate Listing Service](https://acortez1003.github.io/portfolio/portfolio-3/)
 
 <ins>**Data Structures & Algorithms**</ins>
 
@@ -73,7 +73,7 @@ author_profile: true
   * Developed Android applications using Android Studio Jellyfish and Java
   * Used SQL Databases (Room Persistence Library) to store and retrieve data for applications
   * Worked with UI frameworks (ConstraintLayout, etc.) to create interfaces
-  * Created [Memory Game](https://acortez1003.github.io/portfolio/portfolio-4/) and [Pet Care](https://github.com/acortez1003/PetCare_2) projects
+  * Created [Memory Game](https://acortez1003.github.io/portfolio/portfolio-5/) and [Pet Care](https://github.com/acortez1003/PetCare_2) projects
 
 <ins>**Computer & Network System Administration**</ins>
 

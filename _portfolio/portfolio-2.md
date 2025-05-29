@@ -1,30 +1,29 @@
 ---
-title: "Real Estate MLS"
-excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. [*repo*](https://github.com/acortez1003/Real-Estate-MLS).<br/><img src='/images/mls.PNG'>"
+title: "Ascend: Path of No Return"
+excerpt: "Metroidvania created in Godot, featuring custom level design, interactive dialogue, and dynamic story progression. Team project written in GDScript. [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return)<br/><img src='/images/ascend.PNG'>"
 collection: portfolio
 ---
 
-This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)
+Over the course of a semester, my team and I developed a 2D Metroidvania in Godot using GDScript. My primary contributions focused on **level design, interactive environments, managing dialogue, and story progression.** [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return)
 
-## Search Functionality
+## Level Design
 
-The `Search Houses` and `Search Businesses` tabs filter properties based on user critera. The data submitted is passed to PHP scripts which interact with the MySQL database to retrieve the filtered results using `GET`.
+I designed and implemented the templates for all three in-game maps, utilizing Godot's TileMap to construct tile-based environments. I used parallax backgrounds to create dynamic effects and configured collision layers to ensure accurate player interaction.
 
-![Search Houses](/images/mls.PNG)
-![Search Businesses](/images/search_business.PNG)
+![Level design](/images/level_design.png)
 
-## Dynamic Queries
+## Interactive Environments
 
-The `Queries` tab allows users to write custom SQL queries. PHP is used to validate correct syntax. If valid, the application will take the user to a separate page with the results of that query.
+I developed a resuable Interact Area node that can be applied to any item using the `interact()` function, which allows child nodes to override and define specific behavior. The system uses collision detection to trigger an indicator (`[E]`) when the player enters the designated Interact Area. Upon pressing the interact button, the `interact()` function is called, executing the specific action for that object.
 
-![Query](/images/query.PNG)
+![Interact area](/images/interact_area.png)
 
-## Fixed Data Views
+## Dialogue Management and Story Progression
 
-The `Agents` and `Buyers` tabs display set information on the predefined variables.
+I also implemented dialogue management by integrating the [DialogueManager](https://github.com/nathanhoad/godot_dialogue_manager) plugin created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
 
-![Agent and Buyer](/images/agent_buyer.PNG)
+![Dialogue manager](/images/dialogue_manager.PNG)
 
-The `Listings` tab provides a detailed view of all active listings
+Additionally, I setup the transition logic by creating door nodes that allowed players to transition between scenes. Using exported variables, I set up each door to point to specific target scenes. In the image below, our "Door_3" points to "Door_4" and transitions to "Area_3" and will point the player left upon spawn.
 
-![Listings](/images/listings.PNG)
+![Door](/images/door.PNG)

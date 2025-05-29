@@ -1,29 +1,20 @@
 ---
-title: "Ascend: Path of No Return"
-excerpt: "Metroidvania created in Godot, featuring custom level design, interactive dialogue, and dynamic story progression. Team project written in GDScript. [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return).<br/><img src='/images/ascend.PNG'>"
+title: "Gift Grouping App - In Progress"
+excerpt: "An Android mobile application that allows users to efficiently track and manage gift purchases within groups. This personal project utilizes Java, Android Studio, SQLite, and RESTful APIs. [*repo*](https://github.com/acortez1003/GiftLoop)"
 collection: portfolio
 ---
 
-Over the course of a semester, my team and I developed a 2D Metroidvania in Godot using GDScript. My primary contributions focused on **level design, interactive environments, managing dialogue, and story progression.** [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return)
+I'm currently developing an app that allows users to track and manage gift purchases within a group. [*repo*](https://github.com/acortez1003/GiftLoop)
 
-## Level Design
+## Current Progress
 
-I designed and implemented the templates for all three in-game maps, utilizing Godot's TileMap to construct tile-based environments. I used parallax backgrounds to create dynamic effects and configured collision layers to ensure accurate player interaction.
+* **Data Models**: Set up models for `User`, `Group`, and `Gift` to define the structures of the data.
+* **DAO Classes**: Implemented DAO (Data Access Object) classes for each model, including `@Insert`, `@Delete`, and specific queries to retrieve all groups or all gifts for a particular group.
+* **Repository Setup**: Created a repository to interact with the DAOs. This layer is responsible for managing data operations, using the ExecutorService library to handle background threads efficiently.
+* **ViewModels**: Set up ViewModels using the Android ViewModel library to manage UI-related data and allow data binding to the UI.
 
-![Level design](/images/level_design.png)
+## Next Steps
 
-## Interactive Environments
-
-I developed a resuable Interact Area node that can be applied to any item using the `interact()` function, which allows child nodes to override and define specific behavior. The system uses collision detection to trigger an indicator (`[E]`) when the player enters the designated Interact Area. Upon pressing the interact button, the `interact()` function is called, executing the specific action for that object.
-
-![Interact area](/images/interact_area.png)
-
-## Dialogue Management and Story Progression
-
-I also implemented dialogue management by integrating the [DialogueManager](https://github.com/nathanhoad/godot_dialogue_manager) plugin created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
-
-![Dialogue manager](/images/dialogue_manager.PNG)
-
-Additionally, I setup the transition logic by creating door nodes that allowed players to transition between scenes. Using exported variables, I set up each door to point to specific target scenes. In the image below, our "Door_3" points to "Door_4" and transitions to "Area_3" and will point the player left upon spawn.
-
-![Door](/images/door.PNG)
+* **UI Setup**: Implementing the UI using `NavHostFragment` to navigate between screens. Each screen will be structured as individual fragments with corresponding XML layouts.
+* **Connecting ViewModels**: After setting up the UI, I'll connect each fragment to its respective ViewModel to handle user interactions and data updates.
+* **Amazon RESTful API Integration**: I plan on incorporating Amazon's API to allow users to search for gifts, view recommended items, and access direct purchase links for each item.
