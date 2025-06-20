@@ -1,29 +1,33 @@
 ---
-title: "Ascend: Path of No Return"
-excerpt: "Metroidvania created in Godot, featuring custom level design, interactive dialogue, and dynamic story progression. Team project written in GDScript. [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return)<br/><img src='/images/ascend.PNG'>"
+title: "Cluster-Based System Monitoring Dashboard"
+excerpt: "Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network metrics across a 5-user cluster.<br/><img src='/images/metrics.PNG'>"
 collection: portfolio
 ---
 
-Over the course of a semester, my team and I developed a 2D Metroidvania in Godot using GDScript. My primary contributions focused on **level design, interactive environments, managing dialogue, and story progression.** [*repo*](https://github.com/acortez1003/Ascend-Path-of-No-Return)
+## Project Overview
+Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network usage across a 5-user cluster. The app logs metrics to a local SQLite database and visualizes real-time trends using Chart.js.
 
-## Level Design
+## Tech Stack
+Python, Flask, Netdata API (RESTful), SQLite, Chart.js, Gunicorn, Nginx, Linode, GitLab
 
-I designed and implemented the templates for all three in-game maps, utilizing Godot's TileMap to construct tile-based environments. I used parallax backgrounds to create dynamic effects and configured collision layers to ensure accurate player interaction.
+## Key Features
+* Real-time Metrics Visualization
+    * Metrics  (CPU, memory, etc.) updated every 10 seconds
+    * Visualized with dynamic line graphs using Chart.js
+    * Provides instant feeback on system load and usage
 
-![Level design](/images/level_design.png)
+![Live metrics](/images/metrics.png)
 
-## Interactive Environments
+* Database Logging
+    * Metrics from all cluster machines logged every 10 minutes
+    * Stored using SQLite for lightweight persistence
+    * Enables historical data trends and analysis
 
-I developed a resuable Interact Area node that can be applied to any item using the `interact()` function, which allows child nodes to override and define specific behavior. The system uses collision detection to trigger an indicator (`[E]`) when the player enters the designated Interact Area. Upon pressing the interact button, the `interact()` function is called, executing the specific action for that object.
+![Database logs](/images/database.png)
 
-![Interact area](/images/interact_area.png)
+* Security and Deployment
+    * Deployed on Linode with Nginx + Gunicorn
+    * Secured with HTTPS via Certbot
+    * Restricted Netdata API access to cluster members only
 
-## Dialogue Management and Story Progression
-
-I also implemented dialogue management by integrating the [DialogueManager](https://github.com/nathanhoad/godot_dialogue_manager) plugin created by Nathan Hoad. Most interactions triggered by the `interact()` function are linked to the DialogueManageer, which I configured to handle context-specific dialogue flows and events. These interactions were crucial in story progression, which is where I created side-quests where the player would have to complete a certain task in order to proceed.
-
-![Dialogue manager](/images/dialogue_manager.PNG)
-
-Additionally, I setup the transition logic by creating door nodes that allowed players to transition between scenes. Using exported variables, I set up each door to point to specific target scenes. In the image below, our "Door_3" points to "Door_4" and transitions to "Area_3" and will point the player left upon spawn.
-
-![Door](/images/door.PNG)
+This project allowed me to learn how to manage and secure a live production server. I gained hands-on experience with REST APIs, background logging, and system-level monitoring.

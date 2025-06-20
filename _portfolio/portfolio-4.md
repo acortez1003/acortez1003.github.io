@@ -1,35 +1,30 @@
 ---
-title: "Memory Game"
-excerpt: "An Android memory game developed in Android Studio using Java and XML, featuring user preferences management and dynamic level selection. [*repo*](https://github.com/acortez1003/MemoryGame)<br/><img src='/images/home.PNG' style='display: block; margin: auto;'>"
+title: "Real Estate MLS"
+excerpt: "A full-stack web application designed to simulate a real estate listing platform. Utilizes SQL queries to search and filter based on various criteria. Integrated with MariaDB. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)<br/><img src='/images/mls.PNG'>"
 collection: portfolio
 ---
 
-This application was the final project of my Mobile Programming course. This was a group project where my role was to implement user preferences management and designing level selection and navigation layouts. [*repo*](https://github.com/acortez1003/MemoryGame)
+This is a full-stack web application for managing real estate listings, built using PHP, MySQL (MariaDB), and XAMPP as the local server environment. The application allows users to search, view, and and dynamic querying. [*repo*](https://github.com/acortez1003/Real-Estate-MLS)
 
-## UI & Navigation
+## Search Functionality
 
-<div style="text-align: center;">
-    <img src="/images/home.PNG" alt="Home">
-</div>
+The `Search Houses` and `Search Businesses` tabs filter properties based on user critera. The data submitted is passed to PHP scripts which interact with the MySQL database to retrieve the filtered results using `GET`.
 
-I designed the level templates in XML, ensuring a consistent layout and correct screen transitions. Each level button was configured to navigate to the appropriate game screen by using `onClickListener()`.
+![Search Houses](/images/mls.PNG)
+![Search Businesses](/images/search_business.PNG)
 
-## User Preferences
+## Dynamic Queries
 
-I implemented `SharedPreferences` to persist user settings. This included **color themes, dark/light mode, and level completion tracking**. Even if the device was shut off or rebooted, these settings would persist.
+The `Queries` tab allows users to write custom SQL queries. PHP is used to validate correct syntax. If valid, the application will take the user to a separate page with the results of that query.
 
-![Gameplay](/images/gameplay.png)
+![Query](/images/query.PNG)
 
-Above is gameplay. This shows Medium Level 1 being played. After completion, the user is taken back to the level selection screen and that level is now turned Green. This was done by overriding the `OnResume()` method, which ensures that the UI updates dynamically to reflect the new level status. 
+## Fixed Data Views
 
-![Color change](/images/color_change.png)
+The `Agents` and `Buyers` tabs display set information on the predefined variables.
 
-In the `Settings` view, we can change the button color, which is persistent data. This was done through overriding the `onCreatePreferences()` method.
+![Agent and Buyer](/images/agent_buyer.PNG)
 
-![Reset](/images/reset.png)
+The `Listings` tab provides a detailed view of all active listings
 
-If the user wanted to restart their progress, they can hit the `Reset` button and the levels will reset as their color as well as the other saved preferences that were changed in the settings. This is done through calling `SharedPreferences.Editor.clear()`.
-
-![Light mode](/images/light_mode.PNG)
-
-Changing dark/light mode is also an option of persistent data in the settings.
+![Listings](/images/listings.PNG)

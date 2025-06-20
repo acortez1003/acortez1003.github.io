@@ -1,31 +1,35 @@
 ---
-title: "eCommerce"
-excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)<br/><img src='/images/ecommerce.PNG'>"
+title: "Memory Game"
+excerpt: "An Android memory game developed in Android Studio using Java and XML, featuring user preferences management and dynamic level selection. [*repo*](https://github.com/acortez1003/MemoryGame)<br/><img src='/images/home.PNG' style='display: block; margin: auto;'>"
 collection: portfolio
 ---
 
-During my C# class, I developed a functional eCommerce web application that provides shopping and inventory management functionalities. This web application keeps up with MVVM architecture. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)
+This application was the final project of my Mobile Programming course. This was a group project where my role was to implement user preferences management and designing level selection and navigation layouts. [*repo*](https://github.com/acortez1003/MemoryGame)
 
-## Inventory Management
+## UI & Navigation
 
-The `InventoryView` has all CRUD (Create, Read, Update, Delete) operations for products. We can change product details such as the name, the price and the amount.
+<div style="text-align: center;">
+    <img src="/images/home.PNG" alt="Home">
+</div>
 
-![InventoryView](/images/inventory.PNG)
+I designed the level templates in XML, ensuring a consistent layout and correct screen transitions. Each level button was configured to navigate to the appropriate game screen by using `onClickListener()`.
 
-Clicking BOGO will turn it on/off for a specific object.
+## User Preferences
 
-![Add Product](/images/add_product.PNG)
+I implemented `SharedPreferences` to persist user settings. This included **color themes, dark/light mode, and level completion tracking**. Even if the device was shut off or rebooted, these settings would persist.
 
-We can also add a product ...
+![Gameplay](/images/gameplay.png)
 
-![View new product](/images/new_product.PNG)
+Above is gameplay. This shows Medium Level 1 being played. After completion, the user is taken back to the level selection screen and that level is now turned Green. This was done by overriding the `OnResume()` method, which ensures that the UI updates dynamically to reflect the new level status. 
 
-... and see it added to our inventory list!
+![Color change](/images/color_change.png)
 
-## Shopping Functionalities
+In the `Settings` view, we can change the button color, which is persistent data. This was done through overriding the `onCreatePreferences()` method.
 
-In the shopping area, the user can create a shopping cart, or use the default shopping cart. The inventory and shopping cart are dynamically linked, ensuring that any updates made to the inventory are reflected in the shopping area. This is achieved through data binding.
+![Reset](/images/reset.png)
 
-![Cart](/images/cart.PNG)
+If the user wanted to restart their progress, they can hit the `Reset` button and the levels will reset as their color as well as the other saved preferences that were changed in the settings. This is done through calling `SharedPreferences.Editor.clear()`.
 
-This `ShopView` is also where the tax rates are implemented and seen through the receipt. Here is also where the markdown value is applied, if a product has one.
+![Light mode](/images/light_mode.PNG)
+
+Changing dark/light mode is also an option of persistent data in the settings.
