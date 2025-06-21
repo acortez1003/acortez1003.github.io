@@ -1,8 +1,9 @@
 ---
 title: "Sudoku Solver Web App"
-excerpt: "**Try live demo: [https://sudoku-solver-acortez.vercel.app/](https://sudoku-solver-acortez.vercel.app/)**<br />Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><div style='text-align: center;'><img src='/images/sudoku_solver.png' style='max-width: 100%; width: 300px; height: auto;'></div>"
+excerpt: "**Try live demo: [https://sudoku-solver-acortez.vercel.app/](https://sudoku-solver-acortez.vercel.app/)**<br />Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png' style='display: block; margin: 0 auto; max-width: 100%; width: 300px; height: auto;'>"
 collection: portfolio
 ---
+
 
 ## Project Overview
 This is a fully responsive and interactive Sudoku Solver web application built with **React** and **Vite**. It allows users to solve and learn how to play Sudoku through a built-in hint system.
@@ -27,7 +28,7 @@ This project is designed for both casual players and learners. It includes custo
 
 ### Hint System
 <div style="text-align: center;">
-  <img src='/images/sudoku_hint.gif' style="width: 250px; height: auto;" />
+  <img src='/images/sudoku_hint.gif' style="width: 350px; height: auto;" />
 </div>
 * Offers step-by-step hints that demonstrate real solving strategies such as:
     * Naked Singles / Pairs
