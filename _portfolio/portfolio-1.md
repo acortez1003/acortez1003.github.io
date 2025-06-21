@@ -4,11 +4,12 @@ excerpt: "**Try live demo: [https://sudoku-solver-acortez.vercel.app/](https://s
 collection: portfolio
 ---
 
-
 ## Project Overview
 This is a fully responsive and interactive Sudoku Solver web application built with **React** and **Vite**. It allows users to solve and learn how to play Sudoku through a built-in hint system.
 
 This project is designed for both casual players and learners. It includes custom puzzle generation, real-time validation, and a step-by-step hint system for solving.
+
+Try the **live demo**: _[https://sudoku-solver-acortez.vercel.app/](https://sudoku-solver-acortez.vercel.app/)_
 
 ## Key Features
 
