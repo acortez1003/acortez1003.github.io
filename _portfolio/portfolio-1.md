@@ -1,6 +1,6 @@
 ---
 title: "Sudoku Solver Web App"
-excerpt: "Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.PNG'>"
+excerpt: "Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png'>"
 collection: portfolio
 ---
 
