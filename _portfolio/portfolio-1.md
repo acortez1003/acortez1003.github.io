@@ -1,6 +1,6 @@
 ---
 title: "Sudoku Solver Web App"
-excerpt: "Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png'>"
+excerpt: "Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png' style='max-width: 100%; width: 300px; height: auto;>"
 collection: portfolio
 ---
 
@@ -12,24 +12,29 @@ This project is designed for both casual players and learners. It includes custo
 ## Key Features
 
 ### Solver
+<img src='/images/sudoku_generate.gif'>
 * Automatically solves user-inputted or generated puzzles using a recursive backtracking algorithm.
 * Includes input validation and conflict highlighting as per Sudoku rules. (Unique value in each row, column, box)
 
 ### Pencil Marks & Editing
+<img src='/images/sudoku_conflict.gif'>
 * Enables dynamic pencil markings when Hints are applied
 * Changes pencil markings based on puzzle state as the game progresses.
 
 ### Hint System
+<img src='/images/sudoku_hint.gif' style="text-align: center;">
 * Offers step-by-step hints that demonstrate real solving strategies such as:
     * Naked Singles / Pairs
     * Hidden Singles / Pairs
     * Candidate elimination
 
 ### User Interaction
+<div style="text-align: center;">
+    <img src='/images/sudoku_match.gif'>
+    <img src='/images/sudoku_erase.gif'>
+</div>
 * Responsive UI with number pad, eraser, reset, and undo functionality.
 * Highlights matching numbers and selected cells to improve clarity.
-
-<img src='/images/sudoku_match.gif'>
 
 ### Fully Responsive
 * Optimized for both desktop and mobile screens with flexible layouts.
