@@ -1,6 +1,6 @@
 ---
 title: "eCommerce"
-excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)<br/><img src='/images/ecommerce.PNG'>"
+excerpt: "A full-stack eCommerce web application developed using .NET MAUI and C#. The application provides full shopping and inventory management functionality. [*repo*](https://github.com/acortez1003/eCommerce_Su2024)<br/><img src='/images/ecommerce.PNG'><br />"
 collection: portfolio
 ---
 

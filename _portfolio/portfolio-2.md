@@ -1,6 +1,6 @@
 ---
 title: "Cluster-Based System Monitoring Dashboard"
-excerpt: "Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network metrics across a 5-user cluster.<br/><img src='/images/metrics.png'>"
+excerpt: "Built and deployed a secure system monitoring dashboard using Flask and Netdata to track CPU, memory, disk, and network metrics across a 5-user cluster.<br/><img src='/images/metrics.png'><br />"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Sudoku Solver Web App"
-excerpt: "**Try live demo: [https://sudoku-solver-acortez.vercel.app/](https://sudoku-solver-acortez.vercel.app/)**<br />Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png' style='display: block; margin: 0 auto; max-width: 100%; width: 300px; height: auto;'>"
+excerpt: "**Try live demo: [https://sudoku-solver-acortez.vercel.app/](https://sudoku-solver-acortez.vercel.app/)**<br />Fully responsive and interactive Sudoku Solver web application built with React and Vite. It allows users to generate or input a puzzle to learn Sudoku through a built-in hint system. [*repo*](https://github.com/acortez1003/sudoku-solver)<br /><img src='/images/sudoku_solver.png' style='display: block; margin: 0 auto; max-width: 100%; width: 300px; height: auto;'><br />"
 collection: portfolio
 ---
 
